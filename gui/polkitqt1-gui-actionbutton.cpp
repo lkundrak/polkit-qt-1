@@ -165,5 +165,3 @@ void ActionButtonPrivate::streamClicked(bool c)
 
 //needed because of Q_PRIVATE_SLOT
 #include "moc_polkitqt1-gui-actionbutton.cpp"
-
-

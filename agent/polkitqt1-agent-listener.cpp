@@ -121,4 +121,4 @@ const PolkitAgentListener *Listener::listener()
 
 }
 
-
+#include "moc_polkitqt1-agent-listener.cpp"

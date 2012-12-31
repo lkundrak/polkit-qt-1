@@ -2,6 +2,10 @@
 project("PolkitQt-1")
 
 cmake_minimum_required(VERSION 2.8.11)
+
+# Instruct CMake to run moc automatically when needed
+set(CMAKE_AUTOMOC ON)
+
 find_package(ECM 0.0.6 REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules" ${ECM_MODULE_PATH} ${CMAKE_MODULE_PATH})
