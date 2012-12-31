@@ -6,6 +6,6 @@ includedir=@CMAKE_INSTALL_PREFIX@/include
 Name: polkit-qt-agent-1
 Description: Convenience library for using polkit Agent with a Qt-styled API
 Version: @POLKITQT-1_VERSION_STRING@
-Requires: QtCore QtGui
+Requires: Qt5Core Qt5Gui
 Libs: -L${libdir} -lpolkit-qt-agent-1
 Cflags: -I${includedir}
