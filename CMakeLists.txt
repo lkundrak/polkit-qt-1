@@ -15,6 +15,8 @@ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules" ${ECM_MODULE_P
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0)
 
 find_package(Qt5Core REQUIRED)
+find_package(Qt5DBus REQUIRED)
+find_package(Qt5Xml REQUIRED)
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(Polkit REQUIRED)
