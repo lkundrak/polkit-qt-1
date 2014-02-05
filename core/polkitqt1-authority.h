@@ -1,5 +1,5 @@
 /*
- * This file is part of the Polkit-qt project
+ * This file is part of the Polkit-qt5 project
  * Copyright (C) 2009 Daniel Nicoletti <dantti85-pk@yahoo.com.br>
  * Copyright (C) 2009 Dario Freddi <drf@kde.org>
  * Copyright (C) 2009 Jaroslav Reznik <jreznik@redhat.com>
@@ -125,7 +125,7 @@ public:
      * Returns the current instance of Authority. Call this function whenever
      * you need to access the Authority class.
      *
-     * \note Authority is a singleton. Memory is handled by polkit-qt, so you just
+     * \note Authority is a singleton. Memory is handled by polkit-qt5, so you just
      * need to call this function to get a working instance of Authority.
      * Don't delete the object after having used it.
      *
@@ -170,7 +170,7 @@ public:
 
     /**
      * Returns the current instance of PolkitAuthority. If you are handling
-     * it through Polkit-qt (which is quite likely, since you are calling
+     * it through Polkit-qt5 (which is quite likely, since you are calling
      * this function), DO NOT use any PolicyKit API's specific method that
      * modifies the instance on it, unless you're completely aware of what you're doing and
      * of the possible consequencies. Use this instance only to gather information.

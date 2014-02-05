@@ -1,16 +1,16 @@
-Policy Kit 1 support for polkit-qt
+Policy Kit 1 support for polkit-qt5
 ==================================
 
 This is initial port to PK1.
 
 What's working?
 ---------------
-polkit-qt-core
-polkit-qt-gui
+polkit-qt5-core
+polkit-qt5-gui
 
 TO-DO
 -----
-* polkit-qt-core
+* polkit-qt5-core
   - temporary authorization handling functions
   - move from Auth namespace to Authority class?
   - tests

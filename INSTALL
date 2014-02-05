@@ -1,6 +1,6 @@
-Polkit-qt's build system uses cmake.
+Polkit-qt5's build system uses cmake.
 
-So to compile Polkit-qt first create a build dir
+So to compile Polkit-qt5 first create a build dir
 
   mkdir build
   cd build
@@ -15,7 +15,7 @@ cmake then presents a configuration summary. At this point you may
 want to install missing dependancies (if you do, remove the CMakeCache.txt)
 and run cmake again.
 
-Finally build Polkit-qt:
+Finally build Polkit-qt5:
 
   make
 

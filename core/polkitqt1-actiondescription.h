@@ -1,5 +1,5 @@
 /*
- * This file is part of the Polkit-qt project
+ * This file is part of the Polkit-qt5 project
  * Copyright (C) 2009 Jaroslav Reznik <jreznik@redhat.com>
  * Copyright (C) 2010 Dario Freddi <drf@kde.org>
  *

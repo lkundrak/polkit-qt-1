@@ -1,5 +1,5 @@
 /*
- * This file is part of the Polkit-qt project
+ * This file is part of the Polkit-qt5 project
  * Copyright (C) 2009 Jaroslav Reznik <jreznik@redhat.com>
  *
  * This library is free software; you can redistribute it and/or
@@ -17,7 +17,7 @@
  * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301, USA.
  *
- * polkit-qt-listener based on code by David Zeuthen <davidz@redhat.com>
+ * polkit-qt5-listener based on code by David Zeuthen <davidz@redhat.com>
  */
 
 

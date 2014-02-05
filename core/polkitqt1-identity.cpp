@@ -1,5 +1,5 @@
 /*
- * This file is part of the Polkit-qt project
+ * This file is part of the Polkit-qt5 project
  * Copyright (C) 2009 Lukas Tinkl <ltinkl@redhat.com>
  *
  * This library is free software; you can redistribute it and/or

@@ -1,43 +1,43 @@
 /**
-\mainpage Polkit-qt-1 - Qt wrapper around polkit-1
+\mainpage Polkit-qt5-1 - Qt wrapper around polkit-1
 
 \section polkitqt1_overview Overview
 
 \note Please note that if you're developing an application on the KDE Development
       Platform and not just with Qt, you might want to use KAuth (kdelibs/core/auth)
 
-polkit-qt-1 aims to make it easy for Qt developers to take advantage of
+polkit-qt5-1 aims to make it easy for Qt developers to take advantage of
 polkit API. It is a convenience wrapper around QAction and QAbstractButton
 that lets you integrate those two components easily with polkit.
 
-polkit-qt-1 is not a direct replacement of polkit-qt: it is based on polkit-1, which is not
-backwards compatible in any way with Policykit <= 0.9, which was the backend of polkit-qt.
-You are encouraged to port polkit-qt applications to polkit-qt or KAuth, if based on the KDE
+polkit-qt5-1 is not a direct replacement of polkit-qt5: it is based on polkit-1, which is not
+backwards compatible in any way with Policykit <= 0.9, which was the backend of polkit-qt5.
+You are encouraged to port polkit-qt5 applications to polkit-qt5 or KAuth, if based on the KDE
 Development Platform, since PolicyKit <= 0.9 is no longer maintained.
 
-polkit-qt-1 is split in three libraries: polkit-qt-core-1, polkit-qt-gui-1 and polkit-qt-agent-1
+polkit-qt5-1 is split in three libraries: polkit-qt5-core-1, polkit-qt5-gui-1 and polkit-qt5-agent-1
 
-\b polkit-qt-core-1 lets you control actions and authentication without a GUI, with some very
+\b polkit-qt5-core-1 lets you control actions and authentication without a GUI, with some very
 simple functions. It also lets you retrieve and control useful informations on the polkit
 authority. You will be mostly interested in the \c Authority class.
 
-\b polkit-qt-gui-1 lets you easily associate GUI items with polkit actions. Through some simple
+\b polkit-qt5-gui-1 lets you easily associate GUI items with polkit actions. Through some simple
 wrapper classes you are able to associate QAction and QAbstractButton to a polkit action,
 and get their properties changed accordingly to polkit's result. It includes the classes
 Action, ActionButton and ActionButtons
 
-\b polkit-qt-agent-1 lets you write your own polkit authentication agents in a very simple way.
+\b polkit-qt5-agent-1 lets you write your own polkit authentication agents in a very simple way.
 
-\li A sample usage of polkit-qt-1 can be found in \ref polkitqt1_example
+\li A sample usage of polkit-qt5-1 can be found in \ref polkitqt1_example
 \li <a href="classes.html">Alphabetical Class List</a>
 \li <a href="hierarchy.html">Class Hierarchy</a>
 
 
 
 
-\page polkitqt1_example Polkit-qt-1 usage example
+\page polkitqt1_example Polkit-qt5-1 usage example
 
-You can find an example usage of Polkit-qt-1 in the examples/ dir. You can
+You can find an example usage of Polkit-qt5-1 in the examples/ dir. You can
 build it by passing \c -DBUILD_EXAMPLES=TRUE to your cmake line. The structure
 consists of a .ui file and a main class, to demonstrate how easy it is to integrate
 polkit support in an existing application. Let's see some details about it:
@@ -93,14 +93,14 @@ with even more ease, just by manually connecting the signal to ActionButton::act
 to understand why this connection doesn't happen automatically), and Action::authorized() signal notifies
 you when polkit has authorized you to perform the action.
 
-As you can see, usage of polkit-qt-1 is extremely simple. Have a look at the complete example
+As you can see, usage of polkit-qt5-1 is extremely simple. Have a look at the complete example
 and to the API Docs for more details.
 
 
 */
 
 // DOXYGEN_PROJECTVERSION=0.96.1
-// DOXYGEN_PROJECTNAME=PolkitQt-1
+// DOXYGEN_PROJECTNAME=PolkitQt5-1
 // DOXYGEN_ENABLE=YES
 
 // vim:ts=4:sw=4:expandtab:filetype=doxygen

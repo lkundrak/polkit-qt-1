@@ -1,5 +1,5 @@
 /*
- * This file is part of the Polkit-qt project
+ * This file is part of the Polkit-qt5 project
  * Copyright (C) 2009 Dario Freddi <drf@kde.org>
  * Copyright (C) 2007 David Faure <faure@kde.org>
  *

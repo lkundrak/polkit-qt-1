@@ -2,10 +2,10 @@ TODO
 ====
 
 - Policy Kit 1 port
- * polkit-qt
+ * polkit-qt5
   + Console Kit support
   
- * polkit-qt-gui
+ * polkit-qt5-gui
   + authorization checking for non privileged user
   
 - document Listener and co.

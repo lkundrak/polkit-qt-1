@@ -13,8 +13,8 @@ add_executable(polkit-agent-example
 )
 
 target_link_libraries(polkit-agent-example
-    polkit-qt-agent-1
-    polkit-qt-core-1
+    polkit-qt5-agent-1
+    polkit-qt5-core-1
 )
 
 qt5_use_modules(polkit-agent-example

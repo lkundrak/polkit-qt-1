@@ -27,8 +27,8 @@ add_executable(polkit-example
 )
 
 target_link_libraries(polkit-example
-    polkit-qt-gui-1
-    polkit-qt-core-1
+    polkit-qt5-gui-1
+    polkit-qt5-core-1
 )
 
 qt5_use_modules(polkit-example
@@ -66,7 +66,7 @@ add_executable(polkit-example-helper
 
 # see our helper is pretty small :D
 target_link_libraries(polkit-example-helper
-    polkit-qt-core-1
+    polkit-qt5-core-1
 )
 
 qt5_use_modules(polkit-example-helper
